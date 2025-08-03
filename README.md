@@ -32,5 +32,5 @@ It includes:
 
 ---
 
-## 📁 Project Structure
+## 📁 PLP PROJECT, A MILLION DEVS FOR AFRICA
 
