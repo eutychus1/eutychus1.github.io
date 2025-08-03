@@ -1,110 +1,208 @@
-<style>
-  body {
-    margin: 0;
-    font-family: Arial, sans-serif;
-    background: linear-gradient(to right, #1e3c72, #2a5298); /* Blue-purple gradient */
-    color: #ffffff;
-    line-height: 1.6;
-    font-size: 18px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-
-  header, main, footer {
-    max-width: 900px;
-    width: 100%;
-    padding: 2rem;
-    box-sizing: border-box;
-  }
-
-  h1 {
-    font-size: 2.5rem;
-    margin-bottom: 0.3em;
-    text-align: center;
-  }
-
-  h2 {
-    font-size: 2rem;
-    margin-top: 2em;
-    text-align: center;
-  }
-
-  h3 {
-    font-size: 1.4rem;
-    margin-top: 1.5em;
-    text-align: center;
-  }
-
-  nav {
-    width: 100%;
-    max-width: 900px;
-    padding: 1rem 2rem;
-    align-self: flex-start;
-    box-sizing: border-box;
-  }
-
-  nav ul {
-    list-style: none;
-    padding: 0;
-    display: flex;
-    gap: 1.5rem;
-    flex-wrap: wrap;
-    margin: 0;
-  }
-
-  nav a {
-    color: #ffffff;
-    text-decoration: underline;
-    font-weight: bold;
-  }
-
-  address {
-    font-style: normal;
-    margin-top: 1em;
-    text-align: center;
-  }
-
-  ul {
-    padding-left: 1.5em;
-  }
-
-  code {
-    background-color: #111;
-    padding: 1rem;
-    display: block;
-    border-radius: 6px;
-    white-space: pre;
-    overflow-x: auto;
-    font-family: 'Courier New', monospace;
-    font-size: 16px;
-  }
-
-  footer {
-    text-align: center;
-    font-size: 0.9rem;
-    margin-top: 3rem;
-    border-top: 1px solid rgba(255, 255, 255, 0.2);
-    padding-top: 1rem;
-  }
-
-  img {
-    width: 100%;
-    max-width: 100%;
-    margin-bottom: 1.5rem;
-    border-radius: 10px;
-    display: block;
-  }
-
-  @media (max-width: 768px) {
-    nav ul {
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Portfolio of Eutychus Mwendwa, a health consultant learning software development and data analysis." />
+  <meta name="keywords" content="Eutychus Mwendwa, Portfolio, Health Consultant, Software Development, Data Analysis, Python, HTML, Nairobi" />
+  <meta name="author" content="Eutychus Mwendwa" />
+  <title>Eutychus Mwendwa | Portfolio</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: linear-gradient(to right, #1e3c72, #2a5298); /* Blue-purple gradient */
+      color: #ffffff;
+      line-height: 1.6;
+      font-size: 18px;
+      display: flex;
       flex-direction: column;
-      align-items: flex-start;
-      gap: 0.8rem;
+      align-items: center;
+    }
+
+    header, main, footer {
+      max-width: 900px;
+      width: 100%;
+      padding: 2rem;
+      box-sizing: border-box;
+    }
+
+    h1 {
+      font-size: 2.5rem;
+      margin-bottom: 0.3em;
+      text-align: center;
+    }
+
+    h2 {
+      font-size: 2rem;
+      margin-top: 2em;
+      text-align: center;
+    }
+
+    h3 {
+      font-size: 1.4rem;
+      margin-top: 1.5em;
+      text-align: center;
     }
 
     nav {
+      width: 100%;
+      max-width: 900px;
+      padding: 1rem 2rem;
       align-self: flex-start;
+      box-sizing: border-box;
     }
-  }
-</style>
+
+    nav ul {
+      list-style: none;
+      padding: 0;
+      display: flex;
+      gap: 1.5rem;
+      flex-wrap: wrap;
+      margin: 0;
+    }
+
+    nav a {
+      color: #ffffff;
+      text-decoration: underline;
+      font-weight: bold;
+    }
+
+    address {
+      font-style: normal;
+      margin-top: 1em;
+      text-align: center;
+    }
+
+    ul {
+      padding-left: 1.5em;
+    }
+
+    code {
+      background-color: #111;
+      padding: 1rem;
+      display: block;
+      border-radius: 6px;
+      white-space: pre;
+      overflow-x: auto;
+      font-family: 'Courier New', monospace;
+      font-size: 16px;
+    }
+
+    footer {
+      text-align: center;
+      font-size: 0.9rem;
+      margin-top: 3rem;
+      border-top: 1px solid rgba(255, 255, 255, 0.2);
+      padding-top: 1rem;
+    }
+
+    img {
+      width: 100%;
+      max-width: 100%;
+      margin-bottom: 1.5rem;
+      border-radius: 10px;
+      display: block;
+    }
+
+    @media (max-width: 768px) {
+      nav ul {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0.8rem;
+      }
+
+      nav {
+        align-self: flex-start;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Eutychus Mwendwa</h1>
+    <p>Health Consultant | Learning Software Development & Data Analysis</p>
+  </header>
+
+  <nav aria-label="Main Navigation">
+    <ul>
+      <li><a href="#about">About Me</a></li>
+      <li><a href="#hobbies">Hobbies</a></li>
+      <li><a href="#languages">Languages</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <section id="about">
+      <h2>About Me</h2>
+      <p>Hello! I'm <strong>Eutychus Mwendwa</strong>, a health consultant based in Nairobi, Kenya — or as I like to say, my happy place is home. I'm currently learning how to create visual solutions through software development and data analysis. My journey blends curiosity, creativity, and a passion for solving real-world problems with code.</p>
+    </section>
+
+    <section id="hobbies">
+      <h2>Hobbies</h2>
+      <ul>
+        <li>Skating</li>
+        <li>Swimming</li>
+        <li>Djing</li>
+        <li>Reading</li>
+        <li>Meditating</li>
+        <li>Nature walks</li>
+        <li>Car visitings</li>
+        <li>Learning languages (both human and computer!)</li>
+      </ul>
+    </section>
+
+    <section id="languages">
+      <h2>Languages</h2>
+      <h3>Fluent Human Languages</h3>
+      <ul>
+        <li>English</li>
+        <li>Swahili</li>
+      </ul>
+
+      <h3>Currently Learning (for fun!)</h3>
+      <ul>
+        <li>Japanese</li>
+        <li>German</li>
+        <li>Russian</li>
+      </ul>
+
+      <h3>Computer Languages</h3>
+      <p>These are the programming languages I’m currently exploring:</p>
+      <code>
+        # Python
+        print("Hello, world!")
+
+        // C++
+        #include &lt;iostream&gt;
+        int main() {
+            std::cout &lt;&lt; "Hello, world!" &lt;&lt; std::endl;
+            return 0;
+        }
+
+        // Java
+        public class HelloWorld {
+            public static void main(String[] args) {
+                System.out.println("Hello, world!");
+            }
+        }
+      </code>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>You can reach me at:</p>
+      <address>
+        Email: <a href="mailto:eutylovescoding@gmail.com">eutylovescoding@gmail.com</a><br />
+        Phone: <a href="tel:+254703259115">+254 703 259 115</a><br />
+        Location: Nairobi, Kenya
+      </address>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Eutychus Mwendwa. All rights reserved.</p>
+  </footer>
+</body>
+</html>
