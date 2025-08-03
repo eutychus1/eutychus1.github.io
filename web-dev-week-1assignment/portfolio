@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Portfolio of Eutychus Mwendwa, a health consultant and aspiring developer creating visual solutions through software and data." />
+  <meta name="author" content="Eutychus Mwendwa" />
+  <meta name="keywords" content="Eutychus Mwendwa, web developer, health consultant, HTML5, portfolio, SEO, accessibility, data analysis, software development" />
+  <title>Eutychus Mwendwa | Web Portfolio</title>
+</head>
+<body>
+  <header role="banner">
+    <h1>Eutychus Mwendwa</h1>
+    <p>Health Consultant | Aspiring Developer | Visual Problem Solver</p>
+    <address>
+      <p>Nairobi, Kenya — <em>my happy place</em></p>
+      <a href="mailto:eutylovescoding@gmail.com">eutylovescoding@gmail.com</a><br>
+      <a href="tel:+254703259115">+254 703 259 115</a>
+    </address>
+  </header>
+
+  <nav role="navigation" aria-label="Main Navigation">
+    <ul>
+      <li><a href="#about">About Me</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#hobbies">Hobbies</a></li>
+      <li><a href="#languages">Languages</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <main role="main">
+    <section id="about" aria-labelledby="about-heading">
+      <h2 id="about-heading">About Me</h2>
+      <p>Hello! I'm Eutychus Mwendwa, a health consultant on a mission to create visual and practical solutions using the power of software development and data analysis. I'm passionate about building clean, accessible, and meaningful web experiences that serve both people and purpose.</p>
+    </section>
+
+    <section id="projects" aria-labelledby="projects-heading">
+      <h2 id="projects-heading">Projects</h2>
+      <article aria-labelledby="project1-heading">
+        <h3 id="project1-heading">Accessible HTML5 Portfolio</h3>
+        <p>This portfolio is my starting point into web development. It's built with semantic HTML5 and accessibility in mind, representing my dedication to inclusivity and clean structure.</p>
+      </article>
+    </section>
+
+    <section id="hobbies" aria-labelledby="hobbies-heading">
+      <h2 id="hobbies-heading">Hobbies & Interests</h2>
+      <p>Outside of tech and consulting, I love to stay active and creative. My hobbies include:</p>
+      <ul>
+        <li>Skating — freedom on wheels</li>
+        <li>Swimming — my refresh button</li>
+        <li>DJing — mixing sound and soul</li>
+        <li>Reading — from tech docs to thrillers</li>
+        <li>Learning Languages — both human and computer!</li>
+      </ul>
+    </section>
+
+    <section id="languages" aria-labelledby="languages-heading">
+      <h2 id="languages-heading">Languages I Speak & Code</h2>
+
+      <article aria-labelledby="spoken-heading">
+        <h3 id="spoken-heading">Human Languages</h3>
+        <ul>
+          <li>Fluent: English, Swahili</li>
+          <li>Currently Learning: Japanese, German, Russian</li>
+        </ul>
+      </article>
+
+      <article aria-labelledby="code-heading">
+        <h3 id="code-heading">Programming Languages</h3>
+        <p>I'm currently learning the following languages, focusing on software development and data analysis:</p>
+        <pre><code>
+# Languages I'm exploring
+
+// Web & Software Development
+HTML5
+CSS3
+JavaScript
+Java
+C++
+
+// Data Analysis & Scripting
+Python
+SQL
+R
+
+# Keen on building smart solutions with clean, readable code!
+        </code></pre>
+      </article>
+    </section>
+
+    <section id="contact" aria-labelledby="contact-heading">
+      <h2 id="contact-heading">Get in Touch</h2>
+      <p>I’m always open to collaborating, exploring new ideas, or simply chatting about anything from code to coffee.</p>
+      <ul>
+        <li>Email: <a href="mailto:eutylovescoding@gmail.com">eutylovescoding@gmail.com</a></li>
+        <li>Phone: <a href="tel:+254703259115">+254 703 259 115</a></li>
+      </ul>
+    </section>
+  </main>
+
+  <footer role="contentinfo">
+    <p>&copy; 2025 Eutychus Mwendwa. All rights reserved, I AM BIGGIE.</p>
+    <p><small>Built with semantic HTML5 for accessibility and SEO. Powered by passion, music, and morning code sessions I AM BIGGIE.</small></p>
+  </footer>
+</body>
+</html>
